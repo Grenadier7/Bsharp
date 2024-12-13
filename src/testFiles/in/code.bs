@@ -1,0 +1,42 @@
+
+Config console console popup
+
+F Start main
+    Int Set bbb (Input "Zahl?")
+
+    If Start con When (Int Get bbb == 666)
+        Print "Satan has stopped this program"
+        F Stop main
+    If End con
+
+    If Start con1 When (Int Get bbb < 10)
+        Print "smaller 10"
+        If Start con2 When (Int Get bbb < 5)
+            Print "smaller 5"
+            If Start con3 When ( (Int Get bbb == 1) OR (Int Get bbb == (-1)))
+                Print "1 or -1"
+            If End con3
+        If End con2
+    If End con1
+
+    F Run printer
+
+    Else Start con1
+        Print "bigger 10"
+    Else End con1
+
+    Else Start con2
+        Print "bigger 5"
+    Else End con2
+
+    Else Start con3
+        Print "not one"
+    Else End con3
+
+F End main
+
+F Start printer
+    Print "---------------------------------------------------"
+    Print "Biber-zwischen-print"
+    Print "---------------------------------------------------"
+F End printer
