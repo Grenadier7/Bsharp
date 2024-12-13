@@ -7,7 +7,7 @@ F Start main
     If Start con When (Int Get bbb == 666)
         Print "Satan has stopped this program"
         F Stop main
-    If End con fsddfsdfs
+    If End con
 
     If Start con1 When (Int Get bbb < 10)
         Print "smaller 10"

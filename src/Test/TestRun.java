@@ -1,8 +1,8 @@
 package Test;
 
-import BSharp.Exceptions.BSharpRuntimeException;
-import BSharp.Context;
-import Backend.Core;
+import ToCompile.BSharp.Exceptions.BSharpRuntimeException;
+import ToCompile.BSharp.Context;
+import ToCompile.Backend.Core;
 
 public class TestRun {
     public static void main(String[] args) {

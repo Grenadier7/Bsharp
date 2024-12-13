@@ -1,9 +1,9 @@
 package Test;
 
-import BSharp.Exceptions.BSharpException;
-import BSharp.*;
-import BSharp.Context;
-import Backend.Core;
+import ToCompile.BSharp.Exceptions.BSharpException;
+import ToCompile.BSharp.*;
+import ToCompile.BSharp.Context;
+import ToCompile.Backend.Core;
 
 import java.io.File;
 
